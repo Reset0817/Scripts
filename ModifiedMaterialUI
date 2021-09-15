@@ -1,3 +1,5 @@
+-- I am not the creator of material ui, i did this so I can create my own custom theme, fully! :)
+
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 
@@ -10,42 +12,10 @@ local ContentService = game:GetService("ContentProvider")
 
 local Themes = {
 	deez = {
-		MainFrame = Color3.fromRGB(255,255,255),
+		MainFrame = Color3.fromRGB(30,30,30),
 		Minimise = Color3.fromRGB(209,37,25),
 		MinimiseAccent = Color3.fromRGB(147,59,0),
 		Maximise = Color3.fromRGB(58,237,38),
-		MaximiseAccent = Color3.fromRGB(0,255,110),
-		NavBar = Color3.fromRGB(124,37,255),
-		NavBarAccent = Color3.fromRGB(255,255,255),
-		NavBarInvert = Color3.fromRGB(30,30,30),
-		TitleBar = Color3.fromRGB(124,37,255),
-		TitleBarAccent = Color3.fromRGB(255,255,255),
-		Overlay = Color3.fromRGB(124,37,255),
-		Banner = Color3.fromRGB(255,255,255),
-		BannerAccent = Color3.fromRGB(124,37,255),
-		Content = Color3.fromRGB(124,37,255),
-		Button = Color3.fromRGB(124,37,255),
-		ButtonAccent = Color3.fromRGB(255,255,255),
-		ChipSet = Color3.fromRGB(124,37,255),
-		ChipSetAccent = Color3.fromRGB(255,255,255),
-		DataTable = Color3.fromRGB(124,37,255),
-		DataTableAccent = Color3.fromRGB(255,255,255),
-		Slider = Color3.fromRGB(255,255,255),
-		SliderAccent = Color3.fromRGB(124,37,255),
-		Toggle = Color3.fromRGB(124,37,255),
-		ToggleAccent = Color3.fromRGB(255,255,255),
-		Dropdown = Color3.fromRGB(255,255,255),
-		DropdownAccent = Color3.fromRGB(124,37,255),
-		ColorPicker = Color3.fromRGB(255,255,255),
-		ColorPickerAccent = Color3.fromRGB(124,37,255),
-		TextField = Color3.fromRGB(124,37,255),
-		TextFieldAccent = Color3.fromRGB(124,37,255),
-	},
-	Dark = {
-		MainFrame = Color3.fromRGB(30,30,30),
-		Minimise = Color3.fromRGB(255,106,0),
-		MinimiseAccent = Color3.fromRGB(147,59,0),
-		Maximise = Color3.fromRGB(25,255,0),
 		MaximiseAccent = Color3.fromRGB(0,255,110),
 		NavBar = Color3.fromRGB(55,55,55),
 		NavBarAccent = Color3.fromRGB(255,255,255),
